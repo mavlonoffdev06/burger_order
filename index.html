@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <link rel="stylesheet" href="./rockndut/Read me - License Personal Use.txt">
+    <link rel="stylesheet" href="./rockndut/Rockndut.otf">
+    <link rel="stylesheet" href="./rockndut/Rockndut.ttf">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="main__content">
+            <div class="main__content-left">
+                <h1 class="main__content-left__text">THE ULTIMATE <br> BURGER HAUSE</h1>
+                <p class="main__content-left__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ut ratione enim odio perferendis molestiae ea nam? Odio eveniet repudiandae, laborum dignissimos esse odit veritatis velit enim sed, maiores doloribus.</p>
+                <br><br>
+                    <button class="main__content-left__btn">Order Now</button>
+            </div>
+
+            <div class="main__content-right">
+                <img src="./img/1.jpg" alt="" class="img">
+            </div>
+        </div>
+        <div class="main__content-bottom">
+            <ul class="main__content-bottom__menu">
+                <li><img src="./img/1.jpg" onclick="imgSlider('./img/1.jpg');"></li>
+                <li><img src="./img/2.jpg" onclick="imgSlider('./img/2.jpg');"></li>
+                <li><img src="./img/3.jpg" onclick="imgSlider('./img/3.jpg');"></li>
+                <li><img src="./img/4.jpg" onclick="imgSlider('./img/4.jpg');"></li>
+                <li><img src="./img/5.jpg" onclick="imgSlider('./img/5.jpg');"></li>
+                <li><img src="./img/6.jpg" onclick="imgSlider('./img/6.jpg');"></li>
+                <li><img src="./img/burger1.jpg" onclick="imgSlider('./img/burger1.jpg');"></li>
+                <li><img src="./img/8.jpg" onclick="imgSlider('./img/8.jpg');"></li>
+            </ul>
+        </div>
+    </main>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.img').src = anything;
+        }
+    </script>
+</body>
+
+</html>
